@@ -1,0 +1,81 @@
+{
+  "id": "d3be819a-41b3-401e-8e43-df1e8dddc8dd",
+  "name": "TicketingSystemPrototype",
+  "publisher": "Gage Dev",
+  "version": "1.0.0.3",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "976fed7e-cc2a-4604-92c2-33ddd84509e8",
+      "name": "Steel and OBrien Tables",
+      "publisher": "Enavate",
+      "version": "1.0.0.0"
+     },
+     {
+      "id": "12968b6e-b233-40e8-8ebc-160ee407d489",
+      "name": "Shop Floor Insight",
+      "publisher": "Insight Works",
+      "version": "7.9.8112.1"
+     },
+     {
+      "id": "02f80526-1dda-40d6-adb3-6b8e6d0bd332",
+      "name": "Graphical Scheduler",
+      "version": "1.5.8108.3",
+      "publisher": "Insight Works"
+    },
+     {
+      "id": "c03f4df4-c0f9-4ef0-bac1-2843962a5551",
+      "name": "Steel and OBrien Objects",
+      "publisher": "Enavate",
+      "version": "1.0.0.0"
+     },
+     {
+      "id": "a44f3a14-ea8d-4f70-b3dc-88c5713daac7",
+      "name": "OneAppToRuleThemAll",
+      "publisher": "SOB",
+      "version": "1.0.0.0"
+    },
+     {
+       "id": "9c55319d-f3b9-441b-9956-0a0a04decd4b",
+       "name": "Dynamic Ship: Integrated Shipping",
+       "publisher": "Insight Works",
+       "version": "2.6.8125.1"
+     },
+     {
+       "id": "d04cb6c5-68c8-41d7-8e25-824b48e14f04",
+       "name": "Warehouse Insight Advanced WMS",
+       "publisher": "Insight Works",
+       "version": "2.6.8105.1"
+     },
+     {
+      "id": "d50afbbf-aff3-4dac-bce7-8686b375b994",
+      "name": "DocXtender",
+      "publisher": "Insight Works",
+      "version": "1.0.0.0"
+     }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 90000,
+      "to": 90599
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
