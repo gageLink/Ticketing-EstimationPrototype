@@ -20,6 +20,16 @@ page 90000 "Estimator"
                         PullRef();
                     end;
                 }
+                //TODO: add logic for BOM/Router versions
+                /* 
+                field("Version";rec.version)
+                {
+                    trigger onvalidate()
+                    begin
+                        PullRef();
+                    end;
+                }
+                 */
                 field("Quantity To Make"; Rec."Quantity To Make")
                 {
 
@@ -496,6 +506,8 @@ page 90000 "Estimator"
 
         itref.get(rec."Reference Item");
         //pull in bom
+
+        //TODO: add logic for versioning
         if itref."Production BOM No." <> '' then begin
             bom.setrange("Production BOM No.", itref."Production BOM No.");
             bom.Findfirst();
