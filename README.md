@@ -10,3 +10,6 @@ To note, certain ticket Number Series are hardcoded in (See: engtix), so I would
 But I think some user feedback is necessary before any more major changes are made.
 
 All in all, I'm pretty pleased with how this turned out, since there is not functionality natively in BC for tickets, nor estimations, both of which are pretty heavily relied on at my work.
+
+
+10/24/2023 - I uploaded this initially at the suggestion of a friend, but I'd like to use this tool a little more. So, for this project for now at least, I'm gonna be using github as version control. Now to figure out how it all works...
